@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(cp .env.local.example .env.local)",
+      "Bash(ls .env.local)",
+      "Bash(npx next *)",
+      "Bash(npx eslint *)"
+    ]
+  }
+}
